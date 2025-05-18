@@ -1,0 +1,19 @@
+{
+  "name": "openai-graphql-proxy",
+  "version": "1.0.0",
+  "description": "GraphQL API for OpenAI on Cloudflare Workers",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.23",
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^4.0.5"
+  },
+  "devDependencies": {
+    "wrangler": "^4.15.2"
+  }
+}

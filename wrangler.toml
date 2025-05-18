@@ -1,0 +1,11 @@
+name = "openai-graphql-proxy"
+main = "worker.js"
+compatibility_date = "2023-09-04"
+nodejs_compat = true
+
+[vars]
+# Public environment variables here
+
+# Use Cloudflare Workers secrets for the OpenAI API key
+# Run this command to set it:
+# npx wrangler secret put OPENAI_API_KEY
